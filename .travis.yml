@@ -2,5 +2,7 @@ language: ruby
 sudo: false
 cache: bundler
 script: 'bundle exec rake spec'
+before_script:
+  - bundle exec rake db:migrate
 rvm:
   - 2.2.0
