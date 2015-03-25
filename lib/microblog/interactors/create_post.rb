@@ -3,7 +3,7 @@ require 'lotus/interactor'
 class CreatePost
   include Lotus::Interactor
 
-  def initialize(**params)
+  def initialize(params={})
     @post = Post.new(params)
   end
 
