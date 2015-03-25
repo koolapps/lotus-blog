@@ -72,13 +72,14 @@ PostRepository.clear
 
       <p>I founded Ruby Vietnam in 2012. Then it was a small group of Vietnamese Rubyists
       working overseas. All activities are through a <a href="http://ruby-vietnam.org">Facebook group</a>.
-      We started many projects such as Translating ruby-lang.org site to Vietnamese. With
-      time, the number of members rises very fast and we are now the most active Ruby user group
+      We started many projects such as Translating ruby-lang.org site to Vietnamese. In
+      time, the number of members rises steadily and we are now the most active Ruby user group
       in Vietnam.</p>
 
       <p>In early 2014, with support from members in Hồ Chí Minh city and sponsorships
       from various companies such as <a href="http://github.com">GitHub</a>, <a href="http://envato.com">Envato</a>,
-      <a href="http://jobready.com.au">JobReady</a>, we held the first meetup.</p>
+      <a href="http://jobready.com.au">JobReady</a>, we held the first meetup in Hồ Chí Minh city following by
+      the first meetup in Hà Nội three months later.</p>
 
       <p>In late 2014, the group is now a registered organisation and we have successfully
       acquired the domain <a href="http://ruby.org.vn">ruby.org.vn</a>.</p>
