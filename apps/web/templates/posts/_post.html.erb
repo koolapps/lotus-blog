@@ -3,6 +3,7 @@
     <h2 class="post-title">
       <a href="<%= Web::Routes.url(:posts, id: post.id) %>"><%= post.title %></a>
     </h2>
+    <h6>Created at <%= post.created_at %></h6>
   </header>
 
   <div class="post-content"><%= post.content %></div>

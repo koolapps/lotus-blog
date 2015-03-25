@@ -2,7 +2,7 @@ require 'lotus/entity'
 
 class Post
   include Lotus::Entity
-  attributes :title, :content, :user_id
+  attributes :title, :content, :user_id, :created_at, :updated_at
 
   # TODO: remove when Lotus support association
   def user=(user)

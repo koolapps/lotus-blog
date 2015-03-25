@@ -23,6 +23,8 @@ PostRepository.clear
 [
   {
     title: 'Announcing Lotus',
+    created_at: DateTime.new(2015,2,3,4,5,6,'+7'),
+    updated_at: DateTime.new(2015,2,3,4,5,6,'+7'),
     content: <<-EOS.strip_heredoc
       <p>I’m pleased to announce Lotus: the Open Source project I’ve conceived, hacked and built during the last year.</p>
 
@@ -57,6 +59,8 @@ PostRepository.clear
 
   {
     title: 'Xin chào from Ruby Vietnam Organisation',
+    created_at: DateTime.new(2015,2,6,4,5,6,'+7'),
+    updated_at: DateTime.new(2015,2,6,4,5,6,'+7'),
     content: <<-EOS.strip_heredoc
       <p><img src="http://ruby.org.vn/images/ruby-vietnam-logo.png" /></p>
       <p>After two years of hard work, I am proud to announce Ruby Vietnam Organisation</p>
@@ -88,6 +92,6 @@ PostRepository.clear
   },
 
 ].each do |post_attrs|
-  post = Post.new(post_attrs.merge(created_at: DateTime.now, updated_at: DateTime.now))
+  post = Post.new(post_attrs)
   PostRepository.persist(post)
 end

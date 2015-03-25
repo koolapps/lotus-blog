@@ -1,10 +1,12 @@
 collection :posts do
   entity Post
 
-  attribute :id,      Integer
-  attribute :title,   String
-  attribute :content, String
-  attribute :user_id, Integer
+  attribute :id,         Integer
+  attribute :title,      String
+  attribute :content,    String
+  attribute :user_id,    Integer
+  attribute :created_at, DateTime
+  attribute :updated_at, DateTime
 end
 
 collection :users do

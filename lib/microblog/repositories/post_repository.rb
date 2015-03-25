@@ -5,7 +5,7 @@ class PostRepository
 
   def self.ordered_by_created_at
     query do
-      order(:created_at)
+      desc(:created_at)
     end
   end
 end
