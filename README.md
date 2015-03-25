@@ -1,5 +1,7 @@
 # Microblog
 
+[![Build Status](https://travis-ci.org/ruby-journal/lotus-blog.svg)](https://travis-ci.org/ruby-journal/lotus-blog)
+
 YOLO You are hyped when someone mention microservices?
 Look no further Microblog is the first blog in Lotus Framework - EVER!
 
