@@ -88,9 +88,6 @@ PostRepository.clear
   },
 
 ].each do |post_attrs|
-  post = Post.new(post_attrs)
+  post = Post.new(post_attrs.merge(created_at: DateTime.now, updated_at: DateTime.now))
   PostRepository.persist(post)
 end
-
-
-

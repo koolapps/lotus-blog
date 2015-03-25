@@ -4,7 +4,7 @@ module Web::Controllers::Posts
     expose :posts
 
     def call(params)
-      @posts = PostRepository.all
+      @posts = PostRepository.ordered_by_created_at.all
     end
   end
 end
