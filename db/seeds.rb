@@ -93,6 +93,5 @@ PostRepository.clear
   },
 
 ].each do |post_attrs|
-  post = Post.new(post_attrs)
-  PostRepository.persist(post)
+  CreatePost.new(post_attrs).call
 end

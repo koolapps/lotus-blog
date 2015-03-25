@@ -3,10 +3,14 @@ module Admin::Controllers::Posts
     include Admin::Action
 
     def call(params)
-      @post = Post.new(params[:post])
-      PostRepository.persist(@post)
-
+      CreatePost.new(post_params).call
       redirect_to '/admin/posts'
+    end
+
+    private
+
+    def post_params
+      params[:post]
     end
   end
 end
